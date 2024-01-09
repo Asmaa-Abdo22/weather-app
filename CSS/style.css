@@ -1,0 +1,114 @@
+:root {
+  --bs-emphasis-color-rgb: white;
+  --bs-nav-link-padding-x: 1.5625rem;
+  --bs-nav-link-color: white;
+  --bs-navbar-hover-color: #009ad8;
+}
+body {
+  background-image: url(/imgs/pic5.jpg);
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+}
+nav {
+  background-color: #1e202b;
+}
+.navbar {
+  --bs-navbar-padding-x: 30px;
+  --bs-navbar-padding-y: 40px;
+  --bs-navbar-color: var(--bs-emphasis-color-rgb);
+  --bs-navbar-hover-color: #009ad8;
+  --bs-navbar-active-color: #009ad8;
+  --bs-navbar-brand-font-size: 1.25rem;
+  --bs-navbar-brand-hover-color: white;
+  --bs-navbar-brand-color: var(--bs-emphasis-color-rgb);
+  --bs-navbar-nav-link-padding-x: 0.5rem;
+  padding: var(--bs-navbar-padding-y) var(--bs-navbar-padding-x);
+}
+.nav-link {
+  margin-inline: 15px;
+  font-size: 16px;
+  color: var(--bs-nav-link-color);
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 25px;
+  padding-left: 25px;
+}
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-image: var(--bs-navbar-toggler-icon-bg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+nav i {
+  color: #009ad8;
+  margin-right: 15px;
+  font-size: 45px;
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--bs-nav-link-hover-color);
+  border: 1px solid #009ad8;
+  border-radius: 20px;
+}
+.search {
+  margin-block: 90px;
+  position: relative;
+}
+.search #searchBtn {
+  position: absolute;
+  right: 20px;
+  top: 22%;
+  padding-block: 5px;
+  border-radius: 20px;
+  padding-inline: 35px;
+  background-color: #009ad8;
+  border: none;
+  color: white;
+}
+.form-control::placeholder {
+  color: rgb(134, 131, 131);
+  opacity: 1;
+}
+.form-control {
+  width: 100%;
+  padding: 18px;
+  line-height: 1.5;
+  background-color: #1e202b;
+  border: var(--bs-border-width) solid #1e202b;
+  border-radius: 30px;
+}
+.form-control:focus {
+  box-shadow: none;
+  background-color: #1e202b;
+  border: none;
+  color: white;
+}
+.text-cloudy {
+  color: #009ad8;
+}
+.city #iconaa {
+  font-size: 50px;
+}
+.item .day {
+  background-color: #2d303d;
+}
+.item {
+  background-color: #323544c7;
+}
+.dark {
+  background-color: #262936d0;
+}
+#secondDay{
+    background-color: #222530;
+}
+.text-grey{
+  color: grey;
+}
+.s-50{
+  width: 120px;
+}
